@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "Alexander Levin",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "debug": "^4.2.0"
+    "debug": "^4.3.4"
   }
 }
