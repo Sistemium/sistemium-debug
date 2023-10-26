@@ -3,7 +3,9 @@
   "version": "1.0.3",
   "description": "",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
+    "build": "rm -rf lib; tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +13,10 @@
   "license": "MIT",
   "dependencies": {
     "debug": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.10",
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "include": [
+    "src/*.ts"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "outDir": "lib"
+  }
+}
