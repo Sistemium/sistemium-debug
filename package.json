@@ -6,7 +6,6 @@
   "files": [
     "lib"
   ],
-  "type": "module",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "rm -rf lib; tsc",
